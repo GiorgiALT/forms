@@ -9,7 +9,6 @@ body {
 
 .container {
     margin: auto;
-    flex-grow: 1;
     width: 305px;
     height: 470px;
     border: 3px red;
@@ -37,7 +36,7 @@ body {
     justify-content: space-around;
     flex-direction: row;
     background-color: rgb(75, 255, 75);
-
+    color: blue;
     border: 1px solid blue;
     border-radius: 9px;
     width: 200px;
@@ -53,6 +52,9 @@ body {
     width: 90%;
     
 }
-.flex-items {
-    color: blue;
+
+.button-1 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
 }
